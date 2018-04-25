@@ -1,0 +1,280 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#62411F"
+    tools:context="com.nazmussakibohee.WifiOrdering.MainActivity">
+
+    <LinearLayout
+        android:layout_marginBottom="5dp"
+        android:background="#62411F"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="185sp"
+            android:layout_marginBottom="5dp"
+
+            android:id="@+id/relativeLayout">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="185dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/restaurant"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true" />
+
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView2"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Foodies Restaurant"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+
+                android:layout_width="150dp"
+                android:layout_height="118dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/plater">
+
+                <ImageView
+                   android:id="@+id/platerbutton"
+                    style="@style/myImageView"
+                    android:layout_width="150dp"
+                    android:layout_height="118dp"
+                    android:src="@drawable/plater"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Platter Menu"
+                    android:textColor="#ffffff"
+                    android:textColorHighlight="#123423"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+
+                android:id="@+id/rice"
+                android:layout_width="150dp"
+                android:layout_height="118dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                >
+
+
+                <ImageView
+                    android:id="@+id/ricebutton"
+                    style="@style/myImageView"
+                    android:src="@drawable/rice"
+                    android:layout_width="150dp"
+                    android:layout_height="118dp"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_alignParentBottom="true"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_centerHorizontal="true"
+                    android:text="Rice , Biryani"
+                    android:textColor="#ffffff" />
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="118dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/curry">
+
+
+                <ImageView
+                    style="@style/myImageView"
+                    android:layout_width="150dp"
+                    android:layout_height="118dp"
+                    android:src="@drawable/curry"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/currybutton" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Curry"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="200dp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/kabab"
+                android:layout_width="150dp"
+                android:layout_height="118dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="#000">
+
+
+                <ImageView
+                    android:id="@+id/kababbutton"
+                    style="@style/myImageView"
+                    android:src="@drawable/kabab"
+                    android:layout_width="150dp"
+                    android:layout_height="118dp"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_alignParentBottom="true"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_centerHorizontal="true"
+                    android:text="Kabab"
+                    android:textColor="#ffffff" />
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="118dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/soup">
+
+
+                <ImageView
+                    android:id="@+id/soupbutton"
+                    style="@style/myImageView"
+                    android:layout_width="150dp"
+                    android:layout_height="118dp"
+                    android:src="@drawable/soup"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Soup"
+                    android:textColor="#ffffff"
+                    android:textColorHighlight="#123423"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="200dp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/drinks"
+                android:layout_width="150dp"
+                android:layout_height="118dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="#000">
+
+
+                <ImageView
+                    android:id="@+id/drinksbutton"
+                    style="@style/myImageView"
+                    android:src="@drawable/drinks"
+                    android:layout_width="150dp"
+                    android:layout_height="118dp"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_alignParentBottom="true"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_centerHorizontal="true"
+                    android:text="Drinks"
+                    android:textColor="#ffffff" />
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

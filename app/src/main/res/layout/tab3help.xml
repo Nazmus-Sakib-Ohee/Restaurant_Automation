@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nazmussakibohee.WifiOrdering.MainActivity">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="How To Order"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtlow"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/textView13"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="1 . Select Items From Menu to Order Item.\n\n2. Select Amount Of The Item And Tap on ADD button.\n\n3. Press Back Button To Back\n\n4. Press + Button To Add More Item\n\n5. For Order Tap on ORDER and Confirm Order."
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+</RelativeLayout>

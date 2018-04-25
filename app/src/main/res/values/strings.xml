@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Wifi Ordering</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">  Exit</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string-array name="plater">
+        <item>Select</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+    </string-array>
+
+</resources>

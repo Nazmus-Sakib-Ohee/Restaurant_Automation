@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#234c46"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nazmussakibohee.WifiOrdering.platermenu">
+    <LinearLayout
+        android:background="#995248"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:background="#995248"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:background="#209bd4"
+                android:layout_marginLeft="13dp"
+                android:id="@+id/back1"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/add2" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="34dp"
+                android:layout_marginStart="34dp"
+                android:layout_toEndOf="@+id/back1"
+                android:layout_toRightOf="@+id/back1"
+                android:gravity="center"
+                android:text="Platter Section"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:background="#234c46"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="625dp">
+                <RelativeLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:src="@drawable/round"
+                        android:layout_height="200dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="41dp"
+                        android:layout_marginStart="41dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Tandori Chicken\nButter Nan\nDal Makhni\nKuchumber Salad"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/textView3"
+                        android:layout_alignStart="@+id/textView3"
+                        android:layout_alignTop="@+id/textView2"
+                        android:layout_marginTop="14dp"
+                        android:text="Set One"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginStart="14dp"
+                        android:layout_toEndOf="@+id/textView2"
+                        android:layout_toRightOf="@+id/textView2"
+                        android:text="255 Taka"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginTop="25dp"
+                        android:id="@+id/setone"
+                        android:layout_width="90dp"
+                        android:layout_height="40dp"
+                        android:layout_alignLeft="@+id/textView2"
+                        android:layout_alignStart="@+id/textView2"
+                        android:layout_below="@+id/textView2"
+                        android:background="@drawable/text"
+                        android:gravity="center"
+                        android:text="Add"
+                        android:textColor="#931097"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/setonespinner"
+                        android:layout_width="90dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/textView2"
+                        android:layout_toEndOf="@+id/setone"
+                        android:layout_toRightOf="@+id/add1">
+
+                    </Spinner>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_marginTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/round" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="39dp"
+                        android:layout_marginStart="39dp"
+                        android:layout_marginTop="19dp"
+                        android:text="Haydrabadi Biryani\nChicken Curry\nPickle\nMixed Salad\nLemon Juice"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@+id/textView7"
+                        android:layout_alignRight="@+id/textView7"
+                        android:layout_alignTop="@+id/textView6"
+                        android:layout_marginTop="14dp"
+                        android:text="Set Two"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/textView6"
+                        android:layout_toRightOf="@+id/textView6"
+                        android:text="325 Taka"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginTop="4dp"
+                        android:id="@+id/settwo"
+                        android:layout_width="90dp"
+                        android:layout_height="40dp"
+                        android:layout_alignLeft="@+id/textView6"
+                        android:layout_alignStart="@+id/textView6"
+                        android:layout_below="@+id/textView6"
+                        android:background="@drawable/text"
+                        android:gravity="center"
+                        android:text="Add"
+                        android:textColor="#931097"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/settwospinner"
+                        android:layout_width="90dp"
+                        android:layout_height="40dp"
+                        android:layout_alignTop="@+id/settwo"
+                        android:layout_toEndOf="@+id/settwo"
+                        android:layout_toRightOf="@+id/settwo">
+
+                    </Spinner>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_marginTop="8dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:src="@drawable/round"
+                        android:layout_height="200dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                   />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="39dp"
+                        android:layout_marginStart="39dp"
+                        android:layout_marginTop="17dp"
+                        android:text="Zira Polao\nMutton Korai\nMixed Salad\nFaluda\nLemon Juice"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/textView8"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="14dp"
+                        android:text="Set Three"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:id="@+id/textView15" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/textView15"
+                        android:layout_alignStart="@+id/textView15"
+                        android:layout_centerVertical="true"
+                        android:text="340 Taka"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:layout_marginTop="9dp"
+                        android:id="@+id/setthree"
+                        android:layout_width="90dp"
+                        android:layout_height="40dp"
+                        android:layout_alignLeft="@+id/textView8"
+                        android:layout_alignStart="@+id/textView8"
+                        android:layout_below="@+id/textView8"
+                        android:background="@drawable/text"
+                        android:gravity="center"
+                        android:text="Add"
+                        android:textColor="#931097"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/setthreespinner"
+                        android:layout_width="90dp"
+                        android:layout_height="40dp"
+                        android:layout_alignTop="@+id/setthree"
+                        android:layout_toEndOf="@+id/setthree"
+                        android:layout_toRightOf="@+id/setthree">
+
+                    </Spinner>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
